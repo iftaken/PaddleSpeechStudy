@@ -101,7 +101,7 @@ brew install gcc
 <a name="windows"></a>
 ### Q: windows c++ 编译问题
 
-A: C++编译环境，推荐 https://visualstudio.microsoft.com/visual-cpp-build-tools/，更多帮助可以参考[#1195](https://github.com/PaddlePaddle/PaddleSpeech/discussions/1195)
+A: C++编译环境，推荐[visual studio](https://visualstudio.microsoft.com/visual-cpp-build-tools)，更多帮助可以参考 [1195](https://github.com/PaddlePaddle/PaddleSpeech/discussions/1195)
 
 
 

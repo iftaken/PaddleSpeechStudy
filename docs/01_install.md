@@ -3,7 +3,7 @@
 + [安装说明](#install)
     + [相关依赖](#dependence)
     + [pip 安装](#pip)
-    + [源码编译](#source)
+    + [源码编译（推荐）](#source)
     + [训练相关依赖安装](#3rdpart)
 + [FAQ](#faq)
     +  [`pytest-runner` 缺失](#pytest)
@@ -14,16 +14,16 @@
 ## 安装说明
 
 <a name="dependence"></a>
-### 依赖：
+### 相关依赖：
 
 + gcc >= 4.8.5
++ paddlepaddle >= 2.2.0
 + python >= 3.7
 + linux(推荐), mac, windows
 
-PaddleSpeech依赖与paddlepaddle的安装，paddlepaddle的安装可以参考[paddlepaddle官网](https://www.paddlepaddle.org.cn/)，大家可以根据自己机器的情况进行选择
+PaddleSpeech依赖于paddlepaddle，安装可以参考[paddlepaddle官网](https://www.paddlepaddle.org.cn/)，根据自己机器的情况进行选择
 
-PaddleSpeech安装依赖c++环境，需要gcc进行相关的编译。gcc 相关部分可以参考FAQ部分[gcc安装问题](#gcc), [windows C++编译问题](#windows)
-
+PaddleSpeech依赖c++环境，gcc 相关部分可以参考FAQ部分[gcc安装问题](#gcc), [windows C++编译问题](#windows)
 
 PaddleSpeech的安装方式有两种，一种是pip安装，一种是源码编译（推荐）。在部分训练中会依赖第三库，如Kaldi, MFA等，可参考[训练相关依赖安装](#3rdpart)步骤。
 
@@ -35,7 +35,7 @@ pip install paddlespeech
 ```
 
 <a name="source"></a>
-### 源码编译
+### 源码编译（推荐）
 
 ```bash
 git clone https://github.com/PaddlePaddle/PaddleSpeech.git
@@ -51,8 +51,8 @@ git clone https://gitee.com/paddlepaddle/PaddleSpeech.git
 
 <a name="3rdpart"></a>
 ### 训练相关依赖安装
+安装脚本基于 `ubuntu` 系统编写，`centos`以及其它Linux系统，可以参考安装脚本`install_openblas.sh`， `install_kaldi.sh`，安装相关依赖。
 
-需要安装 kaldi 与 openblas
 ```bash
 # 安装paddlespeech
 git clone https://github.com/PaddlePaddle/PaddleSpeech.git

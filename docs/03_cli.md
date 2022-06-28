@@ -3,12 +3,12 @@
 > 第一次使用时会下载对应的预训练模型
 
 ## 测试数据 & NLTK数据
-下载测试音频:
+
 ```bash
 # 已经下载过的话可以跳过这步
 # 下载nltk数据包，建议放在用户的主目录下
 cd ~
-cd wget -c https://paddlespeech.bj.bcebos.com/Parakeet/tools/nltk_data.tar.gz
+wget -c https://paddlespeech.bj.bcebos.com/Parakeet/tools/nltk_data.tar.gz
 tar zxvf nltk_data.tar.gz
 # 16k 16bit 测试音频
 wget -c https://paddlespeech.bj.bcebos.com/PaddleAudio/zh.wav

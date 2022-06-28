@@ -9,7 +9,7 @@ aistudio上可完整体验，fork [【PaddleSpeech API Demo】](https://aistudio
 # 已经下载过的话可以跳过这步
 # 下载nltk数据包，建议放在用户的主目录下
 cd ~
-cd wget -c https://paddlespeech.bj.bcebos.com/Parakeet/tools/nltk_data.tar.gz
+wget -c https://paddlespeech.bj.bcebos.com/Parakeet/tools/nltk_data.tar.gz
 tar zxvf nltk_data.tar.gz
 # 下载测试数据
 wget -c https://paddlespeech.bj.bcebos.com/PaddleAudio/zh.wav

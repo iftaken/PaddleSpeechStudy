@@ -8,7 +8,8 @@ PaddleSpeech 学习文档，零基础入门搭建自己的智能语音应用。
 + 快速体验
     + [Python API 接口体验](docs/02_api.md)
     + [命令行功能体验](docs/03_cli.md)
-    + [Server使用](docs/04_server.md)
+    + [语音Server使用](docs/04_server.md)
+    + [流式语音服务使用](docs/05_server.md)
 + 进阶开发
     + CLI 代码解读
     + Server 代码解读

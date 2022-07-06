@@ -4,6 +4,8 @@
 
 样例输出结果展示可见aistudio项目[【PaddleSpeech Server Demo】](https://aistudio.baidu.com/aistudio/projectdetail/4282835?shared=1)，fork后，按步骤运行即可
 
+网络接口部分请见：[【PaddleSpeech语音服务接口定义】](https://github.com/PaddlePaddle/PaddleSpeech/wiki/PaddleSpeech-Server-RESTful-API)
+
 ## 语音服务启动
 
 ### 命令行启动(推荐)

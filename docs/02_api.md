@@ -15,7 +15,6 @@ tar zxvf nltk_data.tar.gz
 wget -c https://paddlespeech.bj.bcebos.com/PaddleAudio/zh.wav
 ```
 
-
 ## 语音识别
 
 ```python

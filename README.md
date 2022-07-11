@@ -1,6 +1,11 @@
 # PaddleSpeechStudy
 
-PaddleSpeech 学习文档，零基础入门搭建自己的智能语音应用。
+PaddleSpeech 入门教程，零基础入门搭建自己的智能语音应用。
+
+目前还处于初稿阶段，大家有问题的地方欢迎在这个Issue[#2131](https://github.com/PaddlePaddle/PaddleSpeech/issues/2131)进行留言，也欢迎大家来贡献代码和文档。
+
+> PaddleSpeech涉及多个语音方向，新手上手难度高。目前PaddleSpeech文档资料是比较分散的，有些非常优质的内容以及相关的API说明，分散在了子项目的【readme】，【readthedoc】, aistudio上的课程【飞桨PaddleSpeech语音技术】，【wikki】，以及【Discussions】区中，本入门教程将精华内容集中，帮助开发者快速查阅，快速上手PaddleSpeech开发工作。
+
 
 ## 目录
 
@@ -10,8 +15,7 @@ PaddleSpeech 学习文档，零基础入门搭建自己的智能语音应用。
     + [命令行功能体验](docs/03_cli.md)
     + [语音Server使用](docs/04_server.md)
     + [流式语音服务使用](docs/05_stream.md)
-
-+ 模型结构解读
++ 语音模型
     + 语音识别
         + xxx
         + xxx
